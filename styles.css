@@ -1,0 +1,151 @@
+body {
+  background-color: #D6E5FA !important;
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif ;
+}
+
+.stroke {
+  color: black;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+.profile-image{
+  border-radius: 20%;
+  width: 180px;
+}
+
+hr {
+  height: 2px !important;
+  background-color:#4D77FF; 
+}
+
+.short-line{
+  border: none !important;
+  height: 1px !important;
+  width: 30%;
+  background-color:black; 
+}
+
+h1,h2,h3,h4,h5{
+  text-align: center;
+  font-family: serif ;
+}
+
+.titleMain{
+  font-family: 'Satisfy', cursive;
+}
+
+.sentence{
+  font-family: serif;
+}
+.reasons{
+  font-family: serif;
+  font-size: 20px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color:  #FDBE34 !important;
+}
+
+p {
+  line-height: 2;
+  text-align: justify;
+  font-family: sans-serif ;
+  text-indent: 40px;
+}
+
+/* Side nav */
+.navPages{
+  position:fixed;
+  top: 160px;
+  right: 16px;
+  z-index: 1;
+}
+/* End side nav style */
+
+.top-container {
+  background-image: url('/Resume/Images/pexels-pixabay-373076.jpg');
+  height: 100%;
+  width: 100%;
+  padding-bottom: 160px;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-size: 100% 140vh;
+   background-repeat: no-repeat;
+}
+
+.profile-container {
+  background-color: white;
+  position: relative;
+  padding: 60px 0 60px;
+}
+
+.experience-container {
+  background-color: white;
+  position: relative;
+  padding: 60px 0 60px;
+}
+
+.abilities-container {
+  background-color: white;
+  position: relative;
+  padding: 60px 0 60px;
+}
+
+.bottom-container {
+  background-color:#e2e2e0;
+  padding: 60px 0 50px;
+}
+
+.stars {
+  color: goldenrod;
+  font-size: 15px;
+}
+
+.colStars{
+  text-align: right;
+}
+
+.title-text{
+  padding-top: 50px;
+}
+
+.contacts{
+  padding: 40px 0 40px;
+}
+
+
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: white;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4D77FF;
+  border-radius: 10px;
+}
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background: #D6E5FA;
+  }
+
+  /* End scrollbar style */
